@@ -5,6 +5,7 @@ h1 {
     color: rgb(196,99,0);
     text-align: center;
 }
+<<<<<<< Updated upstream
 
 header {
     background-color: rgb(219,175,88);
@@ -14,5 +15,127 @@ header {
 
 body {
     background-color:rgb(12,69,0) ;
+=======
+ 
+.MMain {
+    background-color: #606c38;
+}
 
+
+/*Location*/
+.hours {
+    color: #bc6c27;
+}
+.ABC {
+    background-color: #dca15f;
+}
+.float-container {
+    border: 3px solid blue;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border: 2px solid red;
+
+}
+
+/*Contact*/
+
+.invalid {
+    border: 1px solid red;
+}
+
+.mb-2 {
+    margin-bottom: 20px;
+}
+
+.mb-4 {
+    margin-bottom: 40px;
+}
+
+.contact-description {
+    margin-bottom: 40px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 280px;
+    border: 1px solid rgb(0,114,66);
+    font-size: 18px;
+    outline: none;
+    color: #333;
+}
+
+.form-group {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.thank-you {
+    padding:45px;
+    text-align: center;
+    font-size: 36px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+textarea {
+    width: 580px;
+    border-radius: 8px;
+    outline: none;
+    padding: 10px;
+    height: 200px;
+    font-size: 18px;
+}
+
+button {
+    color: black;
+    padding: 20px;
+    border: 1px solid #bc6c27;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    color:#bc6c27;
+
+}
+
+button:hover {
+    background-image: linear-gradient(
+        to right,
+        rgb(0,114,66) 0%,
+        rgb(4,109,91) 100%
+    );
+    color: white;
+}
+>>>>>>> Stashed changes
+
+form {
+    padding: 40px;
+}
+
+hr {
+    margin-bottom: 20px;
+    margin-top:20px;
+    height: 1px;
+    border: none;
+    background-color: #bc6c27
 }
