@@ -1,5 +1,4 @@
 
-/*<!--main-->*/
 
 
 div {
@@ -83,55 +82,104 @@ h1 {
 /*Location*/
 .hours {
     color: #bc6c27;
+    font-size: 28px;
 }
 .ABC {
     background-color: #dca15f;
 }
 .float-container {
-    border: 3px solid blue;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .float-child {
     width: 50%;
     float: right;
-    padding: 20px;
-    border: 2px solid red;
+    flex: 1;
+    
+}
+
+.float-childTwo {
+    width: 50%;
+    float: left;
+    flex: 1;
+}
+
+
+/*contact*/
+
+form {
+    padding: 40px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.form-group input, textarea {
+    width: 320px;
+    padding: 10px;
+    font-size: 23px;
+    color: #bc6c27;
+    margin-bottom: 6px;
 
 }
 
-/*Contact*/
+textarea {
+    width: 500px;
+    height: 220px;
+}
 
-input[type=text], select, textarea {
-    padding: 14px;
-    border: 2px solid #bc6c27;
-    border-radius: 6px;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 8px;
-    margin-bottom: 18px;
-    resize: vertical;
+input.invalid {
+    border: 3px solid red;
+}
+
+.error-hint {
+    color: red;
 
 }
 
-input[type=submit] {
-    background-color: #bc6c27;
-    padding: 14px 24px;
+hr {
+    height: 2px;
     border: none;
-    border-radius:6px;
-    cursor: pointer;
-    color:antiquewhite;
-
-}
-
-input[type=submit]:hover {
-    background-color: gold;
-
-}
-
-.container {
-    border-radius: 6px;
     background-color: #dca15f;
-    padding: 16px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
 
+button {
+    padding: 10px;
+    font-size: 22px;
+    background: none;
+    border: none;
+    border: 1px solid #dca15f;
+    border-radius: 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+
+}
+
+button:hover {
+    background-color: #dca15f;
+    border: black;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.thank-you {
+    padding: 40px;
+    font-size: 32px;
+    text-align: center;
 }

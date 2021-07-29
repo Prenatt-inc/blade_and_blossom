@@ -4,8 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" type="text/css" href="mystyles.css">
-            <script type="text/javascript" src="script.js">
-            </script>
             <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
             <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">  
                 <meta name="description" content="Blade and Blossom by Tracey"
@@ -23,37 +21,45 @@
         
 
                         <form>
-                            <div class="container"> 
-                                <label>Full name</label>
-                                <input />
-                            <div class="error-hint">Your name is required</div>
+                            <div class="form-group">
+                                <label>Full Name:</label>
+                                <input 
+                                name="name"
+                                        placeholder="Your first and last name" />
+                                <div class="error-hint hidden">Your name is required.</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>E-mail:</label>
+                                <input 
+                                name="email"
+                                        placeholder="Your e-mail address" />
+                                <div class="error-hint hidden">Your email is required.</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Phone:</label>
+                                <input 
+                                name="phone"
+                                        placeholder="Your phone number" />
+                                <div class="error-hint hidden">Your phone number is required.</div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Message:</label>
+                                <textarea 
+                                name="message"                    
+                                        placeholder="Your message" ></textarea>
+                                <div class="error-hint hidden">A message is required.
+                            </div>
                         </div>
-                    </form>
+                            
+                            <hr />
 
+                            <button>Send Message</button>
+                        </form>
+                                <div class="thank-you hidden">Thank you for your message! We will reach out to you ASAP!</div>
 
-                        
-
-                </form>
-            </div>
-
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </form>
-    </body>
+                    <script type="text/javascript" src="script.js"></script>
+ </body>
     </html>
