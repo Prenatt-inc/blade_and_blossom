@@ -1,6 +1,6 @@
 # Code_Sandwich
  
- # My project here is a business website for a indivdual who works in the esthetician field. They have decided to trek out on their own and rent a space for themselves instead of working for a saloon. I thought this would be a great opportunity to help out a friend trying to be an entrepreneur as well as for myself if I were to go the route of doing basic websites for other indivudals in similar situations. 
+ # My project here is a business website for a indivdual who works in the esthetician field. They have decided to trek out on their own and rent a space for themselves instead of working for a salon. I thought this would be a great opportunity to help out a friend trying to be an entrepreneur as well as for myself if I were to go the route of doing basic websites for other indivudals in similar situations. 
 
  # CSS feautures - 3
 
