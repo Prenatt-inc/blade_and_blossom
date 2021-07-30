@@ -249,7 +249,7 @@ button:hover {
 
 }
 
-@media (min-width: 765px) and (max-width: 800px) {
+@media (min-width: 765px) and (max-width: 800px) /*iPad*/ {
     
     .grid{
         width: 85vw;
