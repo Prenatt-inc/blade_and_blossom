@@ -30,11 +30,12 @@ div {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-height:40em;
-    max-width: 40em;
+    max-height:50%;
+    max-width: 43%;
     position: sticky;
     background-color: #606c38;
     z-index: -1;
+    
 
 }
 
@@ -67,7 +68,17 @@ a:link {
     
 }
 
+.float-container-Two{
 
+}
+
+.float-child3{
+
+}
+
+.float-child4 {
+    
+}
 
 .grid-container {
     font-family: 'prompt', Boogaloo;
@@ -160,6 +171,9 @@ input.invalid {
     color: red;
 
 }
+.correct-hint {
+    color:green;
+}
 
 hr {
     height: 2px;
@@ -201,13 +215,13 @@ button:hover {
 
 /*Media Queries*/
 
-@media (max-width: 376px) { /*iPhone6/7/8/iOS 11*/
+@media (max-width: 760px) { /*iPhone6/7/8/iOS 11*/
     form, .form-group, .form-group label, .form-group input, textarea, textarea   {
        width: 60vw;
        font-size:medium;
    }
 
-   img.center {
+    .center {
        z-index: -1;
        align-self: flex-end;
        padding-top: 20px;
@@ -246,6 +260,18 @@ button:hover {
         text-align: center;
         padding: 8.5px;
     }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height:75%;
+        max-width: 75%;
+        position: sticky;
+        background-color: #606c38;
+        z-index: -1;
+        margin-top: 5%;
+    
+    }
 
 }
 
@@ -267,11 +293,20 @@ button:hover {
         height: 3em;
     }
 
-    img.center {
-        z-index: -5;
-        align-self: flex-end;
-        padding-top: 20px;
-        width: 80vw;
-     }
-
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height:75%;
+        max-width: 75%;
+        position: sticky;
+        background-color: #606c38;
+        z-index: -1;
+        margin-top: 5%;
+    
+    }
+    h1 {
+        padding-top: 40px;
+    
+    }
 }

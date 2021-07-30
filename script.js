@@ -13,7 +13,7 @@ const thankyou = document.querySelector(".thank-you");
 const nameInput = document.querySelector('input[name="name"]'
 );
 const emailInput = document.querySelector('input[name="email"]'
-);
+ );
 const phoneInput = document.querySelector('input[name="phone"]'
 );
 const messageInput = document.querySelector('textarea[name="message"]'
@@ -39,6 +39,9 @@ const invalidateElm = (elm) => {
   elm.nextElementSibling.classList.remove("hidden");
 }
 
+
+
+
 const validateInputs = () => {
     if (!isValidationOn) return;
       
@@ -48,6 +51,7 @@ const validateInputs = () => {
   if (!nameInput.value) {
           isFormValid = false;
           invalidateElm(nameInput);
+          
   }
   
   if (!isValidEmail(emailInput.value)) {
@@ -70,12 +74,15 @@ form.addEventListener("submit", (e) => {
   validateInputs();
   if (isFormValid) {
       form.remove();
-      thankyou.classList.remove("hidden");
+      thankyou.classList.remove("hidden")
+      alert("Thank you" + " " + nameInput.value + " " + "for your message.")
+      alert("We will call you at" + " " + phoneInput.value + " " + "and/or" + " " + "E-mail you at" + " " + emailInput.value + ".")
   }
 });
 
 inputs.forEach((input) => {
   input.addEventListener("input", () => {
     validateInputs();
+
 });
 });
